@@ -1,0 +1,9 @@
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 100
+        keep-alive: '30s'
+      thread-name-prefix: telegramBotThread
